@@ -198,7 +198,7 @@ function taoBang(mang) {
     tabTD_Button_Edit.innerHTML =
       '<button onclick="suaNhanVien(' +
       mang[i].tkNV +
-      ')" class="btn btn-info">Sửa</button>';
+      ')" class="btn btn-info" data-toggle="modal" data-target="#myModal">Sửa</button>';
     tabTD_Button_Delete.innerHTML =
       "<button onclick=\"xoaNhanVien('" +
       mang[i].tkNV +
